@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>WEB PAGE</title>  
+<style>
+.form{color: blueviolet;}
+#form{color: rgb(0, 247, 255);}
+.border{border: 1px solid black;}
+span{display: inline-flex; background-color: brown;}
+.flexbox{
+    display: flex;
+    flex-wrap: nowrap; 
+    background-color: rgb(20, 20, 20);
+    justify-content: space-between;
+    padding: 10px;
+    margin: px;
+    color: rgb(243, 237, 181);
+    
+}
+.flexbox div{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(219, 93, 20);
+    font-size: 15px;
+    text-align: center;
+    justify-content: space-around;
+    transition: 2s;
+}
+div:hover{
+    background-color: rgb(5, 5, 5);
+}
+.border, .border td,th{
+    border: 1px solid black;
+}
+div::after{
+    content: 'TO';
+}
+</style> 
+<link rel="stylesheet" href="./style.css">
+</head>
+<body class="bgimg">
+<h1 style="color: rgb(217, 255, 0); background-image: linear-gradient(rgb(233, 115, 47),rgb(219, 57, 57),rgb(212, 219, 111)); padding: 15px; text-align: center; text-shadow: 3px 6px 5px yellow;">Web design</h1>
+<hr>
+
+<p>I am learning web design from <br><b>W3 schools</b></p>
+<table class="border">
+<tr>
+    <th>name</th>
+    <th>Age</th>
+    <th>Phone number</th>
+</tr>
+<tr>
+    <td rowspan="2" >Tomal</td>
+    <td rowspan="2">20</td>
+    <td>01797200967</td>
+</tr>
+<tr>
+    <td>01309012478</td>
+</tr>
+<img src="download.jpg"
+width="300px" height="200px" style="border-radius: 15px;">
+
+</table><br>
+<form>
+
+<label>First name:</label>
+<input placeholder="type your first name" type="text" required><br><br>
+
+<label>Phone Number:</label>
+<input placeholder="type your number" type="text" minlength="11" maxlength="11" required><br><br>
+
+<label>E-mail:</label>
+<input placeholder="type your e-mail" type="email" required><br><br>
+
+
+
+</form><br>
+<h2 style="text-align: center; background-color: hsl(34, 100%, 55%); border-radius: 15px;" class="form">School admission form 2:</h2>
+<h3 style="text-align: center; background-color: rgb(175, 12, 12); border-radius: 15px;" id="form">School admisson form:</h3>
+<table style="width: 100%;">
+<tr>
+    <td><form>
+        <label>Students name:</label>
+    </form></td>
+    <td><input type="text" placeholder="first name" required style="text-transform: uppercase;"></td>
+    <td><input type="text" placeholder="last name" required style="text-transform: uppercase;"></td>
+</tr>
+
+<tr>
+    <td><form>
+        <label>Class you want to apply for:</label>
+    </form></td>
+    <td colspan="2"><input type="radio" name="class" id="cl-9" value="Class 9"><label for="class9">Class 9</label><br>
+    <input type="radio" name="class" id="cl-9" value="Class9"><label for="class10">Class 10</label> </td>
+</tr>
+<tr>
+    <td><form>
+        <label>students date of birth:</label>
+    </form></td>
+    <td><input type="date" placeholder="MM/DD/YYYY" required></td>
+</tr>
+<tr>
+    <td><form>
+        <label>Parents gaurdian name:</label>
+    </form>
+    </td>
+    <td><input type="text" Placeholder="first name" required></td>
+    <td><input type="text" placeholder="last name" required></td>
+</tr>
+<tr>
+    <td rowspan="2"><form>
+        <label>Current address:</label>
+    </form></td>
+    <td><input type="text" placeholder="street name" required></td>
+    <td><input type="text" placeholder="postal code" required></td>
+</tr>
+<tr>
+    <td><input type="text" placeholder="City" required></td>
+    <td><input type="text" placeholder="Country" required></td>
+</tr>
+<tr>
+    <td><label for="religion">religion:</label>
+    <select name="religion" id="religion">
+        <option value="islam">Islam</option>
+        <option value="Hindu">Hindu</option>
+        <option value="buddhist">Buddhist</option>
+        <option value="christian">Christian</option>
+    </select></td>
+</tr>
+<tr>
+    <td>Phone No.</td>
+    <td><input placeholder="Phone no." type="number" required></td>
+</tr>
+<tr>
+    <td><label>E-mail:</label></td>
+    <td><input placeholder="e-mail" type="email" required style="text-transform: lowercase; text-decoration-line: underline;"></td>
+</tr>
+<tr>
+    <td colspan="3" style="text-align: center; background-color: rgb(16, 185, 143);" ><button type="submit" style="background-color: blanchedalmond;">SUBMIT</button></td>
+</tr>
+</table><br>
+<div class="flexbox">
+   <div><i class="fa-solid fa-bars" style="background-color: chocolate; font-size: 20px;"></i></div> 
+    <div>HTML</div>
+    <div>CSS</div>
+    <div>JAVASCRIPT</div>
+    <div>SQL</div>
+    <div>PYTHON</div>
+    <div>JAVA</div>
+    <div>PHP</div>
+    <div>HOW TO</div>
+    <div>W3.CSS</div>
+    <div>C</div>
+    <div>C++</div>
+    <div>C#</div>
+    <div>BOOTSTRAP</div>
+</div>
+
+
+</body>
