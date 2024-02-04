@@ -1,39 +1,46 @@
 <head> 
     <style>
-        div{
-            display: flex;
-            align-items: stretch;
-            
-        }
+      .container {
+  display: grid;
+  gap: 10px;
+  background-color: #20a9f8;
+ padding: 10px;
+}
+
+.item {
+  background-color: rgb(5, 252, 5);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+        
         
     </style>
 
 </head>
 <body>
-<div>
-<div class="photo"><img src="0ef3d1c3ddb4991db19c9ee4ac57ca1d.jpg" width="300px" height="300" style="border-radius: 10px;"><div></div>
-    </div>
-<div>
-    <img src="800b2319ccb5aed1b1eff929beb76571.jpg" width="300px" height="300" style="border-radius: 10px;">
-</div>
-<div>
-    <img src="cool-green-lion-neon-kcfpv47y8vk4mv86.jpg" width="300px" height="300" style="border-radius: 10px;">
-</div>
-<div>
-    <img src="clover-1225988_640.jpg" width="300px" height="300" style="border-radius: 10px; ">
-</div>
-<div>
-    <img src="assets-cached.jpg" width="300px" height="300" style="border-radius: 10p;">
-</div>
-<div>
-    <img src="31n6XdBMGsL.jpg" width="300px" height="300" style="border-radius: 10px;">
-</div>
-<div>
-    <img src="HD-wallpaper-eiffel-tower-paris-france-grayscale-graphy.jpg" width="300px" height="300" style="border-radius: 10px;">
-</div>
-<div>
-    <img src="K4tMkR.jpg" width="300px" height="300" style="border-radius: 10px;">
-</div><br><br>
 
+<div class="container">
+    <div class="item1 item">1</div>
+    <div class="item2 item">2</div>
+    <div class="item3 item">3</div>
+    <div class="item4 item">4</div>
+    <div class="item5 item">5</div>
+</div>
 
 </body>

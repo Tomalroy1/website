@@ -1,61 +1,574 @@
 <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<style>
-.apex{
-    width:100%;
-    height:50px;
-    display: flex;
-    padding: 10px;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-}
-.apex2{
-    display: flex;
-    padding-left: 20px;
-    font-size: 20px;
-    justify-content: space-between;
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <style>
+    .apex {
+      width: 100%;
+      height: 50px;
+      display: flex;
+      padding: 10px;
+      flex-wrap: nowrap;
+    }
+    .apex2 {
+      display: flex;
+      padding-top: 5px;
+      font-size: 20px;
+     padding-left: 60px;
+      width: 50%;
+      
+    }
+    .apex2 div {
+      text-align: center;
+      justify-content: space-around;
+    }
+
+    .apex3 {
+      display: flex;
+      width: 30%;
+      padding-left: 15px;
+      margin: 5px;
+      position: absolute;
+     right: -450px;
+     color: aliceblue;
+    }
+    .sho {
+      background-image: url(gbl.2e16d0ba.fill-930x756-c100.png);
+      background-repeat: no-repeat;
+      background-size: cover;   
+      height: 250px;
+
+      width: 100%;
+    }
+    .icon{
+        padding-right: 10px;
+        font-size: large;
+    }
+    a:link{
+      text-decoration: none;
+    }
+    .ww{
+      display: flex;
+      padding-left: 1200px;
+      background-color: white;
+      height: 30px;
+    }
+    .www{
+      padding-left: 20px;
+      padding-top: 5px;
     
+    }
+    .apex4{
+      padding-left: 170px;
+    }
+    .w{
+      padding-left: 20px;
+    }
+    .tomal{
+      text-align: center;
+   justify-content: center;
+   color: rgb(255, 253, 253);
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: larger;
+    border-color: white;
     
+    }
+    .tom{
+      display: flex;
+      padding-left: 800;
+     
+    }
+    .to{
+      padding-left: 10px;
+    }
 
+    .apex:hover{
+      background-color: white;
+      color: rgb(216, 27, 27);
+    transition: 1s;
+    }
+   
 
-}
-.apex3{
+    
+    .tomal:hover{
+      background-color: aliceblue;
+      
+    }
+    .gan{
+      height: 600px;
+      background-color: rgb(51, 47, 47);
+      color: white;
+      
+    }
+    .abc{
+      display: flex;
+      position: absolute;
+      top: 55%;
+      left: 9%;
+    }
+    .aaa{
+      margin: 0px;
+    }
+    .bc{
+      background-color: transparent;
+      font-size: larger;
+      border-color: white;
+      color: white;
+      border-radius: 5px;
+    }
+    .ab{
+      padding-left: 20px;
+    }
+    .www::after{
+      content: "";
+      height: 20px;
+      width: 2px;
+      background-color: black;
+      padding-left: 2px;
+      margin-left: 15px;
+    }
+    .www:hover{
+      text-decoration: underline;
+    }
+    .bbb{
+      position: absolute;
+      top: 37%;
+      left: 10%;
+    }
+    .aab{
+      position: absolute;
+      top: 60%;
+      left: 10%;
+      z-index: +1;
+    }
+    .qqq{
+      position: absolute;
+      top: 23%;
+      left: 45%;
+      height: 850px;
+     
+    }
+    .joy{
+      display: flex;
+      position: absolute;
+      margin-top: 15%;
+      left: 12%;
+    }
+    .moye{
+      height: 400px;
+      width: 350px;
+    }
+    .kal{
+      padding-left: 10px;
+    }
+    .ppp{
+      position: absolute;
+      margin-top: 40% ;
+      width: 100%;
+      
+    }
+    .sss{
+      position: absolute;
+      top: 280%;
+      left: 45%;
+    }
+    .eee{
+      background-color: rgb(0, 0, 0);
+      width: 700px;
+      height: 5px;
+      position: absolute;
+      top: 284%;
+      left: 6%;
+    }
+    .iii{
+      background-color: rgb(0, 0, 0);
+      width: 700px;
+      height: 5px;
+      position: absolute;
+      top: 284%;
+      left: 57%;
+    }
+    .ooo{
+      background-color: rgb(0, 0, 0);
+      width: 5px;
+      height: 35px;
+      position: absolute;
+      top: 284%;
+      left: 6%;
+    }
+    .uuu{
+      background-color: rgb(0, 0, 0);
+      width: 5px;
+      height: 35px;
+      position: absolute;
+      top: 284%;
+      left: 94.5%;
+    }
+   .pic{
     display: flex;
-    padding-left: 450px;
+    position: absolute;
+    top: 290%;
+    left: 8%;
+   }
+   .dag1{
+    background-color: rgb(0, 0, 0);
+      width: 89%;
+      height: 5px;
+      position: absolute;
+      top: 330%;
+      left: 6%;
+   }
+   .likha{
+    text-align: center;
+   }
+   .dag2{
+    background-color: rgb(0, 0, 0);
+      width: 5px;
+      height: 38px;
+      position: absolute;
+      top: 326%;
+      left: 6%;
+   }
+   .dag3{
+    background-color: rgb(0, 0, 0);
+      width: 5px;
+      height: 38px;
+      position: absolute;
+      top: 326%;
+      left: 94.7%;
+   }
+   .picture{
+    display: flex;
+    position: absolute;
+    top: 335%;
+    left: 8%;
 
-}
-.shoe{
-    background-image: url(gbl.2e16d0ba.fill-930x756-c100.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+   }
+   .picture1{
+    height: 700px;
+    width: 500px;
+   }
+   .picture2{
+    padding-left: 25px;
+   }
+   .para1{
+    position: absolute;
+    top: 400%;
+    left: 11.5%;
+    background-color: rgb(255, 255, 255);
+   }
+   .para2{
+    position: absolute;
+    top: 400%;
+    left: 40%;
+    background-color: rgb(255, 255, 255);
+   }
+   .para3{
+    position: absolute;
+    top: 400%;
+    left: 68%;
+    background-color: rgb(255, 255, 255);
+   }
+   .baba{
+    position: absolute;
+    top: 415%;
+    left: 10%;
+   
+   }
+  .ma{
+    position: absolute;
+    top: 413%;
+    left: 13%;
+    text-align: center;
+  }
+  .maa{
+    position: absolute;
+    top: 413%;
+    left: 25%;
+    text-align: center;
+    color: rgb(158, 181, 189);
+  }
+  .mma{
+    position: absolute;
+    top: 414%;
+    left: 85%;
+    text-align: center;
+   
+  }
+  .ico1{
+    position: absolute;
+    top: 416.5%;
+    left: 90%;
+    text-align: center;
+    }
+    .ico2{
+    position: absolute;
+    top: 416.5%;
+    left: 92%;
+    text-align: center;
+    }
+   .allshoe{
+    display: flex;
+    position: absolute;
+    top: 422%;
+    left: 10%;
+   }
+   .sho1{
+    height: 300px;
+    width: 250px;
+   }
+   .shoe{
+    padding-left: 7px;
+   }
+   .asdw{
+    display: flex;
+    position: absolute;
+    top: 465%;
+    left: 13%;
+   }
+   .aws{
+padding-left: 10px;
+   }
+   .asd{
+    width: 100%;
+    position: absolute;
+    top: 510%;
+   }
+   .zxc{
+    position: absolute;
+   left: 43%;
+    top: 625%;
     
+   }
+   .border1{
+    background-color: rgb(0, 0, 0);
+      width: 670px;
+      height: 5px;
+      position: absolute;
+      top: 629%;
+      left: 6%;
 }
-
-</style>
+   .border2{
+    background-color: rgb(0, 0, 0);
+      width: 640px;
+      height: 5px;
+      position: absolute;
+      top: 629%;
+      left: 63.5%;
+}
+.border3{
+  background-color: rgb(0, 0, 0);
+      width: 5px;
+      height: 50px;
+      position: absolute;
+      top: 629%;
+      left: 6%;
+}
+.border4{
+  background-color: rgb(0, 0, 0);
+      width: 5px;
+      height: 50px;
+      position: absolute;
+      top: 629%;
+      left: 97.8%;
+}
+.chobi{
+  display: flex;
+  position: absolute;
+  top: 635%;
+  left: 10%;
+}
+.chobi1{
+padding-left: 10px;
+}
+.hjjj{
+  background-color: rgb(0, 0, 0);
+      width: 1720px;
+      height: 5px;
+      position: absolute;
+      top: 120%;
+      left: -5%;
+}
+.hjj{
+  background-color: rgb(0, 0, 0);
+      width: 5px;
+      height: 50px;
+      position: absolute;
+      top: 105%;
+      left: -5%;
+}
+.hj{
+  background-color: rgb(0, 0, 0);
+      width: 5px;
+      height: 50px;
+      position: absolute;
+      top: 105%;
+      left: 104.95%;
+}
+  </style>
 </head>
-<body class="shoe">
-<div class="apex">
-<div>
-<img src="apex-shoes-logo-D0480BCBDE-seeklogo.com.png" height="40px" width="70px">
-</div>
-<div class="apex2">
-<div><p><a href="https://www.apex.com" style="color: aliceblue;">Biggest Sale</a></p></div>
-<div><p><a href="https://www.apex.com" style="color: aliceblue;">Women</a></p></div>
-<div><p><a href="https://www.apex.com" style="color: aliceblue;">Men</a></p></div>
-<div><p><a href="https://www.apex.com" style="color: aliceblue;">Kids</a></p></div>
-<div><p><a href="https://www.apex.com" style="color: aliceblue;">Gift Voucher</a></p></div>
-<div><p><a href="https://www.apex.com" style="color: aliceblue;">Wedding Collection</a></p></div>
-</div>
+<body class="aaa">
+ <div class="sho">
+<div class="ww">
+<div class="www">Find a Store</div>
+<div class="www">Support</div>
+<div class="www">Track Your Order</div>
+<div class="www">Corporate</div>
+<div class="www">Sign In</div>
 
 
-<div class="apex3"><i class="fa-solid fa-magnifying-glass"></i>
-<i class="fa-regular fa-heart"></i>
-<i class="fa-solid fa-bag-shopping"></i>
-<i class="fa-solid fa-user"></i></div>
 </div>
 
 
 
+  <div class="apex">
+    <div class="apex4">
+      <img
+        src="apex-shoes-logo-D0480BCBDE-seeklogo.com.png"
+        height="40px"
+        width="70px"
+      />
+    </div>
+    <div class="apex2">
+      <div >
+        <a class="w" href="https://www.apex.com" style="color: aliceblue">Biggest Sale</a>
+      </div>
+      <div>
+        <a class="w" href="https://www.apex.com" style="color: aliceblue">Women</a>
+      </div>
+      <div><a class="w" href="https://www.apex.com" style="color: aliceblue">Men</a></div>
+      <div>
+        <a class="w" href="https://www.apex.com" style="color: aliceblue">Kids</a>
+      </div>
+      <div>
+        <a class="w" href="https://www.apex.com" style="color: aliceblue">Gift Voucher</a>
+      </div>
+      <div>
+        <a class="w" href="https://www.apex.com" style="color: aliceblue"
+          >Wedding Collection</a
+        >
+      </div>
+    </div>
+
+    <div class="apex3">
+      <i class="fa-solid fa-magnifying-glass icon"></i>
+      <i class="fa-regular fa-heart icon"></i>
+      <i class="fa-solid fa-bag-shopping icon"></i>
+      <i class="fa-solid fa-user icon"></i>
+    </div>
+</div>
+
+<div><h1 style="text-align: center; color: white;">Celebrate 2024: Unlock up to 60% off</h1></div>
+<div class="tom">
+  <div class="to"><button class="tomal">Shop Footwear</button></div>
+<div class="to"><button class="tomal">Shop Clothing</button></div>
+</div>
+</div>
+<div class="gan">
+  <div class="bbb"><div><h1>Step Into Style</h1></div>
+<div><h3 style="font-size: large;">everyday basics to on-trend essentials, discover </h3><h3>style for every occasion.</h3></div></div>
+
+<div class="abc">
+  <div class="ab"><button class="bc">Men</button></div>
+  <div class="ab"><button class="bc">Women</button></div>
+  <div class="ab"><button class="bc">Kids</button></div>
+</div>
+</div>
+<img class="aab" src="e29204ac-29bb-4e44-b3fe-6286c925e9ca.jpeg" height="400px" width="700px">
+
+<video class="qqq" src="abcd.mp4" autoplay muted loop></video>
+
+<div class="joy">
+  <div class="kal"><img class="moye" src="product_1.jpg"><p>abcd</p></div>
+  <div class="kal"><img class="moye" src="d79e8179-77bb-4122-8b16-858c3516d743.jpg"><p>abcd</p></div>
+  <div class="kal"><img class="moye" src="2final_xCAzre4.2e16d0ba.fill-620x350-c100.jpg"><p>abcd</p></div>
+  <div class="kal"><img class="moye" src="2--final_DxEW1Dm.2e16d0ba.fill-620x350-c100.jpg"><p>abcd</p></div>
+</div>
+<img class="ppp" src="maxresdefault (1).jpg">
+
+
+<div class="eee"></div>
+<div class="sss"><h2>wedding collection</h2></div>
+<div class="iii"></div>
+<div class="ooo"></div>
+<div class="uuu"></div>
+
+<div class="pic">
+<div class="pic1"><img src="02db3aeb-2245-4726-8456-517ab0397e04.png" height="220px" width="220px"><p class="likha">BAG1</p></div>
+<div class="pic2"><img src="41fecae8-1710-4a5d-978f-f7b89808ad4e.jpg" height="220px" width="220px"><p class="likha">BAG2</p></div>
+<div class="pic3"><img src="63f35a5e-1f28-4dbf-a47d-0aed9d16a464.jpg" height="220px" width="220px"><P class="likha">BAG3</P></div>
+<div class="pic4"><img src="a168f573-fdd8-47fe-aa8b-8ffe26b4541d.jpg" height="220px" width="220px"><p class="likha">BAG4</p></div>
+<div class="pic5"><img src="301a291c-823d-44a9-9c5d-c6574b7690b9.jpg" height="220px" width="220px"><p class="likha">SHOE1</p></div>
+<div class="pic6"><img src="d4d04ca8-1c7a-4830-8cef-fbe29a7b7985.jpg" height="220px" width="220px"><p class="likha">SHOE2</p></div>
+<div class="pic7"><img src="6cf27b19-97ed-49ea-b38c-d538cce246b6.jpg" height="220px" width="220px"><p class="likha">SHOE3</p></div>
+
+</div>
+
+<div class="dag1"></div>
+<div class="dag2"></div>
+<div class="dag3"></div>
+
+<div class="picture">
+<div class="picture2"><img class="picture1" src="3b4cea94-abfb-4c5d-9163-2d75f410cfd5.jpg"></div>
+<div class="picture2"><img class="picture1" src="7a602d53-b8f0-49f1-9df7-26ed42d71be6.jpg"></div>
+<div class="picture2"><img class="picture1" src="2b869d92-e775-4e1c-af56-4c811c6428b1.jpg"></div>
+</div>
+
+<div class="para1"><h3 style="text-align: center;">The Biggest Sale Campaign</h3><p>sfska bbgf gbfgkfgj kfhgjk fgbjkfg jkfag fgb jkfg jkdfag fgjk fgjk</p></div>
+<div class="para2"><h3 style="text-align: center;">"Venturini By You"-Bespoke</h3><p>sfska bbgf gbfgkfgj kfhgjk fgbjkfg jkfag fgb jkfg jkdfag fgjk fgjk</p></div>
+<div class="para3"><h3 style="text-align: center;">Get 5X Reward Points</h3><p>sfska bbgf gbfgkfgj kfhgjk fgbjkfg jkfag fgb jkfg jkdfag fgjk fgjk</p></div>
+
+<div class="baba">
+<i class="fa-solid fa-arrow-right" style="font-size: 40px;"></i>
+</div>
+<div class="ma"><h1>Best seller</h1></div>
+<div class="maa"><h1>What's Trending</h1></div>
+<div class="mma"><p style="font-size: 20px;">View all</p></div>
+<div class="ico1"><i class="fa-solid fa-arrow-left"></i></div>
+<div class="ico2"><i class="fa-solid fa-arrow-right"></i></div>
+
+<div class="allshoe">
+<div class="shoe"><img class="sho1" src="44a7dfc3-062a-421c-80f5-0ae1c0058a6f.jpg"><p style="text-align: center;">Price=200tk</p></div>
+<div class="shoe"><img class="sho1" src="1590f802-6291-4e90-942c-4a89986ad597.jpg"><p style="text-align: center;">Price=250tk</p></div>
+<div class="shoe"><img class="sho1" src="63590A14_1_1_nw.jpeg"><p style="text-align: center;">Price=300tk</p></div>
+<div class="shoe"><img class="sho1" src="b6e87fb1-f6bd-4cb4-8545-e7c3d671dae5.jpg"><p style="text-align: center;">Price=220tk</p></div>
+<div class="shoe"><img class="sho1" src="bf4cb3d9-299d-4150-b4f2-d5f6ba884bb3.jpg"><p style="text-align: center;">Price=400tk</p></div>
+<div class="shoe"><img class="sho1" src="f5fda770-018b-42d7-8c1b-9da71b54ba24.jpg"><p style="text-align: center;">Price=350tk</p></div>
+</div>
+
+<div class="asdw">
+<div class="aws"><img src="9edce07f-8cb8-46e4-a60e-47a3ab3f0447.jpg" height="400px" width="350px"></div>
+<div class="aws"><img src="68f00d8a-6e83-423b-aded-2d91dcd5e817.jpg" height="400px" width="350px"></div>
+<div class="aws"><img src="926428a0-84b2-479f-a7d2-df7717a0405f.jpg" height="400px" width="350px"></div>
+<div class="aws"><img src="9153768a-b8d7-446e-aff0-e74f840b6a14.jpg" height="400px" width="350px"></div>
+</div>
+
+
+<div class="asd"><img src="1509507_1600x900-Banner2_113022.jpg" height="100%" width="100%"></div>
+ <div class="zxc"><h1 style="text-align: center;">Autumn-Winter Collection</h1></div>
+<div class="border1"></div>
+<div class="border2"></div>
+<div class="border3"></div>
+<div class="border4"></div>
+
+<div class="chobi">
+
+<div class="chobi1"><img src="09c8dd94-068e-4908-99c6-05897714a1d5.jpg" height="250px" width="250px"><p style="text-align: center;">abcd</p></div>
+<div class="chobi1"><img src="06183930-c222-4d6a-8f30-ef1045d18914.jpg" height="250px" width="250px"><p style="text-align: center;">abcd</p></div>
+<div class="chobi1"><img src="e9a6cbf1-055c-48fa-8462-02f991ff1388.jpg" height="250px" width="250px"><p style="text-align: center;">abcd</p></div>
+<div class="chobi1"><img src="f5fda770-018b-42d7-8c1b-9da71b54ba24.jpg" height="250px" width="250px"><p style="text-align: center;">abcd</p></div>
+<div class="chobi1"><img src="a84675ce-168d-4bbd-9cec-2a5275a2ef7e.jpg" height="250px" width="250px"><p style="text-align: center;">abcd</p></div>
+<div class="chobi1"><img src="5f77bb95-5ae7-4b96-9376-7aa5081bf8b1 (1).jpg" height="250px" width="250px"><p style="text-align: center;">abcd</p></div>
+
+<div class="hjjj"></div>
+<div class="hjj"></div>
+<div class="hj"></div>
+
+
+</div>
 </body>
-
-
